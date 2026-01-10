@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+button {
+  background: #e76f51;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#answer-container button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  background: #ddd;
+  height: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+#progress {
+  height: 10px;
+  width: 0%;
+  background: #2a9d8f;
+  border-radius: 5px;
+}
